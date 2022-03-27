@@ -1,6 +1,7 @@
 s = input()
 t = s.upper()
 
-for i in range(len(s)):
-    b = t.count(t[i])
-    print(s[i],b/len(s)*100)
+print(s.count("C"))
+print(s.count("A"))
+print(s.count("G"))
+print(s.count("T"))
